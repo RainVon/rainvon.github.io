@@ -1,0 +1,46 @@
+{
+  "website":{
+    "title": "雨的博客"
+  },
+  "nav":{
+    "home": "首页",
+    "about_me": "关于我",
+    "skills": "技能",
+    "projects": "项目",
+    "career": "职业",
+    "blog": "博客",
+    "link": "友情链接"
+  },
+  "about_me":{
+    "about_me": "关于我",
+    "des": "我是一名软件开放工程师，有开发网站，安卓应用，编写脚本的经验。我认为人生是不断学习的过程。我喜欢电影、动漫和音乐，并希望通过编程和这些业余爱好能结识到更多朋友。"
+  },
+  "skills":{
+    "my_skills": "我的技能"
+  },
+  "projects":{
+    "my_projects": "我的项目",
+    "colorblocks": "colorblocks是一个简单又非常有趣的安卓小游戏！",
+    "jalpc": "这个个人主页项目是基于GitHub上的一个开源项目Jalpc的。它是一个非常简洁、漂亮和快速部署的Jekyll主题。",
+    "familycode": "这是一个销售基因检测产品的微信商城。我使用Django和jQuery weui写这个项目. 这是明码的主要项目，你可以通过微信扫码二维码查看这个项目。"
+  },
+  "career":{
+    "my_career": "职业生涯",
+    "university": "中南民族大学",
+    "university_a_desc": "我本科就读于中南民族大学，电子信息工程学院.",
+    "university_a_date": "2012年9月 - 2016年6月",
+    "university_a_job": "本科",
+    "company_a": "烽火通信",
+    "company_a_desc": "我目前在烽火通信工作，作为一名软件开发工程师.",
+    "company_a_date": "2016年7月 - 现在",
+    "company_a_job": "软件开发工程师"
+  },
+  "blog":{
+    "my_blog": "我的博客"
+  },
+  "link":{
+    "link": "友情链接",
+    "view": "次访问"
+  }
+
+}

@@ -1,0 +1,29 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name:
+    detail: South-central University For Nationalities
+    i18n: university
+  desc:
+    detail: I studided at South-central University For Nationalities ，majored in Electronic and Information Engineering.
+    i18n: university_a_desc
+  date:
+    detail: Sept. 2012 - Jun. 2016
+    i18n: university_a_date
+  job:
+    detail: Bachelor's degree
+    i18n: university_a_job
+  icon: fa-plus-square
+
+- name:
+    detail: Fiberhome Telecommunication Technologies Co.,LTD
+    i18n: company_a
+  desc:
+    detail: I worked at Fiberhome Telecommunication Technologies Co.,LTD.
+    i18n: company_a_desc
+  date:
+    detail: Jul. 2016 - Now
+    i18n: company_a_date
+  job:
+    detail: Software Developer
+    i18n: company_a_job
+  icon: fa-plus-square

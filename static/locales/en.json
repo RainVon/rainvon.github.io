@@ -1,0 +1,46 @@
+{
+  "website":{
+    "title": "Rain's blog"
+  },
+  "nav":{
+    "home": "Home",
+    "about_me": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "career": "Career",
+    "blog": "Blog",
+    "link": "Link"
+  },
+  "about_me":{
+    "about_me": "About Me",
+    "des": "I am a Software engineer with website development, android app and writing scripts experience. I think life is a continuous learning process. I like movies, anime and music. I wish I could make more friends by coding and these hobbies."
+  },
+  "skills":{
+    "my_skills": "My Skills"
+  },
+  "projects":{
+    "my_projects": "My Projects",
+    "jalpc": "This project is based on Jalpc from GitHub. It's a very simple and beautiful jekyll theme.",
+    "familycode": "This is a shopping mall in wechat, it promotes gene detection. Since time is precious, I write this website with Django, jQuery, weui. This is WuxiNextcode's major product. You can scan project's picture by wechat.",
+    "colorblocks": "A simple but funny game for Android!"
+  },
+  "career":{
+    "my_career": "My Career",
+    "university": "South-central University For Nationalities",
+    "university_a_desc": "I studided at South-central University For Nationalities ，majored in Electronic and Information Engineering.",
+    "university_a_date": "Sept. 2012 - Jun. 2016",
+    "university_a_job": "Bachelor's degree",
+    "company_a": "Fiberhome Telecommunication Technologies Co.,LTD",
+    "company_a_desc": "I worked at Fiberhome Telecommunication Technologies Co.,LTD.",
+    "company_a_date": "Jul. 2016 - Now",
+    "company_a_job": "Software Developer"
+  },
+  "blog":{
+    "my_blog": "My Blog"
+  },
+  "link":{
+    "link": "Link",
+    "view": "views"
+  }
+
+}
