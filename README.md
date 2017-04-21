@@ -1,35 +1,10 @@
-
-* [3 steps to setup this theme at your website!](#three-steps)
-* [Features](#features)
-    * [Index page](#index-page)
-    * [_data/\*.yml](#mofify-datayml)
-    * [Chart Skills](#chart-skills)
-    * [Categories in blog page](#categories-in-blog-page)
-    * [Pagination](#pagination)
-    * [Page views counter](#page-views-counter)
-    * [Multilingual Page](#multilingual-page)
-    * [Web analytics](#web-analytics)
-    * [Comment](#comment)
-    * [Share](#share)
-    * [Search engines](#search-engines)
-    * [Compress CSS and JS files](#compress-css-js)
-* [Put in a Jalpc Plug](#put-in-a-jalpc-plug)
-* [Upgrading Jalpc](#upgrading-jalpc)
-    * [Ensure there's an upstream remote](#ensure-theres-an-upstream-remote)
-    * [Pull in the latest changes](#pull-in-the-latest-changes)
-* [Thanks to the following](#thanks-to-the-following)
-* [Todo](#todo)
-* [Change Log](#change-log)
-* [Donate Jalpc](#donate)
-* [Ad](#ad)
+This project is based on Jalpc from GitHub.
 
 This is a simple, beautiful and swift theme for Jekyll. It's mobile first, fluidly responsive, and delightfully lightweight.
 
 If you're completely new to Jekyll, I recommend checking out the documentation at <http://jekyllrb.com> or there's a tutorial by Smashing Magazine.
 
 ## <a name="three-steps"></a> 3 steps to setup this theme at your website!
-
-Here is a [document](https://jarrekk.github.io/Jalpc/html/2017/01/31/3-steps-to-setup-website-with-Jalpc.html) of how to setup this theme with 3 steps. If you have any **questions** please ask me at [GitHub Issues](https://github.com/jarrekk/Jalpc/issues).
 
 ## <a name="feature"></a>Features
 
@@ -63,12 +38,6 @@ The following is mapping between *yml files* to *donation*
 ### <a name="chart-skills"></a>Chart Skills
 
 I use [Chart.js](http://www.chartjs.org/) to show skills, the type of skills' chart is radar, if you want to custom, please read document of Chart.js and edit **_includes/sections/skills.html** and **_data/index/skills.yml**.
-
-### <a name="categories-in-blog-page"></a>Categories in blog page
-
-In blog page, we categorize posts into several categories by url, all category pages use same template html file - `_includes/category.html`.
-
-For example: URL is `http://127.0.0.1:4000/python/`. In `_data/blog.yml`, we define this category named `Python`, so in `_includes/category.html` we get this URL(/python/) and change it to my category(Python), then this page are posts about **Python**. The following code is about how to get url and display corresponding posts in  `_includes/category.html`.
 
 ```html
 <div class="row">
@@ -106,8 +75,6 @@ Languages are configured in the `_data/index/language.yml` file.
 
 > Not everyone needs this feature, so I make it very easy to remove it, just clear content in file `_data/language.yml` and folder `static/locales/`.
 
-About how to custom multilingual page, please see [wiki](https://github.com/jarrekk/Jalpc/wiki/Multilingual-Page).
-
 ### <a name="web-analytics"></a>Web analytics
 
 I use [Google analytics](https://www.google.com/analytics/) and [GrowingIO](https://www.growingio.com/) to do web analytics, you can choose either to realize it,just register a account and replace id in `_config.yml`.
@@ -120,13 +87,9 @@ I use [Disqus](https://disqus.com/) to realize comment. You should set disqus_sh
 
 I use [AddToAny](https://www.addtoany.com/) to share my blog on other social network platform. You can go to this website to custom your share buttons and paste code at `_includes/share.html`.
 
-![share](https://github.com/jarrekk/Jalpc/raw/master/readme_files/share.png)
-
 ### <a name="search-engines"></a>Search engines
 
 I use javascript to realize blog search,you can double click `Ctrl` or click the icon at lower right corner of the page,the detail you can got to this [repository](https://github.com/androiddevelop/jekyll-search). Just use it.
-
-![search](https://github.com/jarrekk/Jalpc/raw/master/readme_files/search.gif)
 
 ### <a name="compress-css-js"></a>Compress CSS and JS files
 
@@ -152,31 +115,8 @@ I use [UglifyJS2](https://github.com/mishoo/UglifyJS2), [clean-css](https://gith
   **xxx** is date when you compress your files.
 3. If you want to add or remove CSS/JS files, just edit **build/build.js** and **build/files.conf.js**, then run `npm run build` at root dir of project, link/src files will use new files.
 
-## <a name="put-in-a-jalpc-plug"></a>Put in a Jalpc Plug
-
-If you want to give credit to the Jalpc theme with a link to my personal website <http://www.jarrekk.com>, that'd be awesome. No worries if you don't.
-
-## <a name="upgrading-jalpc"></a>Upgrading Jalpc
-
-Jalpc is always being improved by its users, so sometimes one may need to upgrade.
-
-### <a name="ensure-theres-an-upstream-remote"></a>Ensure there's an upstream remote
-
-If `git remote -v` doesn't have an upstream listed, you can do the following to add it:
-
-```
-git remote add upstream https://github.com/jarrekk/Jalpc.git
-```
-
-### <a name="pull-in-the-latest-changes"></a>Pull in the latest changes
-
-```
-git pull upstream gh-pages
-```
-
-There may be merge conflicts, so be sure to fix the files that git lists if they occur. That's it!
-
 ## <a name="thanks-to-the-following"></a>Thanks to the following
+* [Jalpc](https://github.com/jarrekk/Jalpc)
 * [Jekyll](http://jekyllrb.com)
 * [Bootstrap](http://www.bootcss.com)
 * [jPages](http://luis-almeida.github.io/jPages)
@@ -191,15 +131,3 @@ There may be merge conflicts, so be sure to fix the files that git lists if they
 
 ## <a name="todo"></a>Todo
 - [ ] `jekyll server --watch` mode need to use original CSS/JS files
-
-##  <a name="change-log"></a>Change Log
-Please see [wiki](https://github.com/jarrekk/Jalpc/wiki/Change-Log)
-
-## <a name="donate"></a>Donate Jalpc
-If this project let you enjoy your blog time, you can give me a cup of coffee :)
-
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/jarrekk)
-
-## <a name="ad"></a>Ad
-[Jalpc-A](https://github.com/Jack614/Jalpc-A): another Jekyll theme written by [AngularJS](https://angularjs.org/).
-
