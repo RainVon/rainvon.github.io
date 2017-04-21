@@ -29,12 +29,6 @@ This *yml file* is about blog page navbar
 
 * blog.yml ==> _includes/header.html
 
-The following is mapping between *yml files* to *donation*
-
-* donation/donationlist.yml ==> blog/donate.html
-* donation/alipay.yml  ==>  blog/donate.html
-* donation/wechat_pay.yml ==> blog/donate.yml
-
 ### <a name="chart-skills"></a>Chart Skills
 
 I use [Chart.js](http://www.chartjs.org/) to show skills, the type of skills' chart is radar, if you want to custom, please read document of Chart.js and edit **_includes/sections/skills.html** and **_data/index/skills.yml**.
